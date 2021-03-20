@@ -1,0 +1,15 @@
+// {
+//   "plugins": ["transform-inline-environment-variables"]
+// }
+
+// with options
+{
+  "plugins": [
+    [
+      "transform-inline-environment-variables",
+      {
+        "include": ["YELP_API_KEY"]
+      }
+    ]
+  ]
+}
